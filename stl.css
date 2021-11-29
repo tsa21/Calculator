@@ -1,31 +1,31 @@
-
-    input[type="button"]
-    {
-    background-color:black;
+input{
+    height: 50px;
+    width:60px;
     color: rgb(255, 255, 255);
-    /* border: solid rgb(208, 185, 185) 2px; */
-    width:100%
-    }
-    
+    background-color: black;
 
-
-.inp{
-    /* border: 1px solid black; */
-    background-color:white;
-    border-radius: 10px;
-    height: 40px;
-    width: 390px;
-    margin-top: 30px;
 }
-    .key{
-        width: 94px;
-        height: 40px;
-    }
-    .keyc{
-        width: 194px;
-        height: 40px;
-    }
-    
-   
+.del{
+    height: 50px;
+    width:125px;
+}
 
-   
+.clear{
+    background-color: rgb(44, 43, 43);
+}
+.calci{
+    color: rgb(10, 74, 47);
+   }
+input:hover{
+       background-color: rgb(50, 125, 92);
+       color:white;
+       border-color: white;
+    }
+.res{
+    height: 50px;
+    width: 255px;
+    color:white;
+    }
+
+
+
